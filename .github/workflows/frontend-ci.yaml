@@ -10,8 +10,7 @@ on:
   pull_request:
     branches:
       - main
-    paths:
-      - "starter/frontend/**"
+    
 
   workflow_dispatch:
 
