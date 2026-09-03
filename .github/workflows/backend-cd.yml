@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - "backend/**"
+      - "starter/backend/**"
 
   workflow_dispatch:
 
@@ -18,7 +18,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: backend
+        working-directory: starter/backend
 
     steps:
       - uses: actions/checkout@v4
@@ -36,7 +36,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: backend
+        working-directory: starter/backend
 
     steps:
       - uses: actions/checkout@v4
@@ -56,7 +56,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: backend
+        working-directory: starter/backend
 
     steps:
       - uses: actions/checkout@v4
@@ -80,7 +80,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: backend/k8s
+        working-directory: starter/backend/k8s
 
     steps:
       - uses: actions/checkout@v4
