@@ -18,7 +18,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: frontend
+        working-directory: starter/frontend
 
     steps:
       - uses: actions/checkout@v4
@@ -82,7 +82,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: frontend/k8s
+        working-directory: starter/frontend/k8s
 
     steps:
       - uses: actions/checkout@v4
